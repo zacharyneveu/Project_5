@@ -1,0 +1,10 @@
+# Project 5 Results
+
+## Knapsack
+
+## Graph Coloring
+For this project, the graph coloring was done in the [Julia](https://julialang.org/) programming language. This allows for using Jupyter notebooks for development and easy visualization of graphs. To view results, the `*.ipynb` file can be opened in Jupyter, the `*.jl` file can be run in Julia, or a PDF has been exported with all code and outputs. Output files are created as in all other projects, and additionally, plots of the best solutions are included.
+
+The two graph coloring algorithms implemented are steepest descent and genetic algorithms. Steepest descent produces worse solutions faster, while genetic algorithms generally produce better solutions but can take a lot of time. In general, the solutions found and runtimes for GAs could be greatly improved by tuning the hyperparameters. With four degrees of freedom (initial population, generations, selection percent and chance of mutation), a proper search for the best parameters could not be performed in the time allotted. The steepest descent algorithm is designed to simply find the local optima and stop there. If this algorithm is modified to find the best neighbor even if it is worse and go there, it will often find better solutions, but takes more time.
+
+

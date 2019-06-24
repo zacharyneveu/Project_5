@@ -1,0 +1,9 @@
+Number-of-objects
+Cost-bound
+0 value0 cost0
+1 value1 cost1    // This is a list of object id numbers, and 
+2 value2 cost2    // the value and cost of each object
+3 value3 cost3
+
+...
+

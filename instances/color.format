@@ -1,0 +1,11 @@
+Number-of-colors
+Number-of-nodes Number-of-edges
+node node
+node node
+node node    // This is a list of pairs of nodes that
+node node    // each represent a single *undirected*
+node node    // edge in the graph
+node node
+node node
+
+...
